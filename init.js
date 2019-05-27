@@ -58,10 +58,10 @@ function startWebsite() {
 
 function createEmptyLogs() {
     try {
-        fs.readFileSync('./logs/blocks.json')
+        fs.readFileSync('./logs/data.json')
     } catch (err) {
         if (err.code === "ENOENT") {
-            fs.writeFileSync('./logs/blocks.json', '[]');
+            fs.writeFileSync('./logs/data.json', '[]');
         } else {
             throw err;
         }
