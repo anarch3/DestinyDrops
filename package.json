@@ -10,7 +10,7 @@
     "dot": "^1.1.2",
     "express": "^4.17.1",
     "express-dot-engine": "^1.0.7",
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.13"
   },
   "devDependencies": {},
   "scripts": {
